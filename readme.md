@@ -24,5 +24,5 @@ It tooked me around 4hrs to compelete the project
 
 # ✈️ Live Link
 
-[Netlify Live...]()
+[Netlify Live...](https://soumyadeeplaha-todoappjs.netlify.app/)
 
