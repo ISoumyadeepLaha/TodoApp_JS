@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Dancing+Script:wght@700&family=Edu+QLD+Beginner&family=Montserrat:wght@100;300;400;500;700;800;900&family=Poppins:ital@1&family=Roboto&family=Ubuntu&display=swap");
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: #14101f;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+h2 {
+  color: #fff;
+  margin-top: 20px;
+  font-size: 4rem;
+}
+span {
+  color: #af5737;
+}
+.container {
+  background-color: #25203a;
+  width: 50%;
+  min-width: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 30px 20px;
+}
+.newtask {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.newtask input {
+  width: 75%;
+  height: 45px;
+  border-radius: 10px;
+  padding: 0 20px;
+  border: none;
+  color: #1f1f1f;
+  font-size: 1.2rem;
+}
+.newtask input:focus {
+  outline: none;
+  border-color: #00d8ff;
+}
+
+.newtask button {
+  width: 15%;
+  height: 45px;
+  margin-left: 20px;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  border: none;
+  background-color: #00d8ff;
+  cursor: pointer;
+  font-weight: bolder;
+  outline: none;
+}
+.newtask button:hover {
+  background-color: #02778b;
+  color: #fff;
+}
+.task {
+  list-style: none;
+  margin-top: 20px;
+}
+
+.task li {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  font-size: 1.4rem;
+  margin: 10px 20px;
+  padding: 10px 20px;
+  background-color: #6951c9;
+  border-radius: 10px;
+  user-select: none;
+}
+
+.done{
+    text-decoration: line-through;
+    /* color: #af5737; */
+    background-color: #ada1db !important;
+}
